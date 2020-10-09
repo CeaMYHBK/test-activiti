@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ceam-eureka" />
+        <module name="ceam-monitor" />
+        <module name="common-log" />
+        <module name="common-swagger" />
+        <module name="ceam-system-api" />
+        <module name="ceam-auth" />
+        <module name="ceam-gateway" />
+        <module name="common-redis" />
+        <module name="ceam-config" />
+        <module name="ceam-system" />
+        <module name="ceam-activiti" />
+        <module name="common-core" />
+        <module name="common-auth" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ceam-activiti" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
